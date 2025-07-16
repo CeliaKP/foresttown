@@ -68,7 +68,7 @@ label start:
         hide normal_fox
         show hilda 
         hilda "we are giving away tickets to [favArtist]'s concert right here in Forest Town... tonight!"
-        hilda "go around town and look for the clues!"
+        hilda "we've partnered with other local businesses--go around town and look for the clues!"
         hilda "good luck!"
         hide hilda 
         pause 0.5
