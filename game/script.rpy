@@ -31,11 +31,11 @@ label start:
     player "i guess we should get to know each other while we wait for the town to wake up"
     player "let's start with you! what do you want to know about me?"
 
-    menu
-    "what's your favorite food?"
-        jump food 
-    "what does the fox say?"
-        jump song 
+    menu:
+        "what's your favorite food?":
+            jump food 
+        "what does the fox say?":
+            jump song 
 
     label food:
         player "i really like eating berries!"
