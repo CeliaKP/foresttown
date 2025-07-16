@@ -26,7 +26,7 @@ label start:
     show normal_fox 
     python:
         foxName = renpy.input("choose my name!")
-        foxName = name.strip() or "Flora"
+        foxName = foxName.strip() or "Flora"
     player "nice to meet you! my name's [foxName]"
     player "i guess we should get to know each other while we wait for the town to wake up"
     player "let's start with you! what do you want to know about me?"
