@@ -43,7 +43,7 @@ label start:
 
     label song: 
         player "i am fluent in some human and fox languages!"
-        player "but i know that's not the answear you wanted haha :)"
+        player "but i know that's not the answer you wanted haha :)"
         jump proceed
 
     label proceed:
