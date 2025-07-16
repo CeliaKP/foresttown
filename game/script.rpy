@@ -73,7 +73,7 @@ label start:
         hide hilda 
         pause 0.5
         show jax:
-            align (1.5, 0.0)
+            align (2.5, 0.0)
         jax "HA. luck. I don't need luck. I'm the best and NOTHING will get in my way"
         show normal_fox:
             align (-0.5, 0.0)
@@ -81,7 +81,7 @@ label start:
         jax "I'm not even a fan. I'm the BEST ticket scalper EVER. I'm going to win those tickets and sell them for thousands of dollars."
         hide normal_fox
         show scared_fox:
-            align (0.0, 0.0)
+            align (-0.5, 0.0)
         player "but... that's not fair to all the other fans"
         jax "Well life's not fair kid. And you don't stand a chance"
         player "how do you know i won't beat you though? i might be a lot better than you"
@@ -109,16 +109,17 @@ label start:
         pause 0.5
         player "and win we did"
         player "not only did we get the [favArtist] tickets..."
-        show normal_fox
+        show normal_fox:
+            align (2.5, 0)
         show honey:
-            align (1.0, 0.0)
+            align (-0.5, 0.0)
         player "... we made lots of friends!"
         player "we met Honey, the coffee shop owner"
         honey "buzz buzz buzz buzz (i love making matcha lattes!)"
         hide honey 
         pause 0.5
         show juniper:
-            align (1.0, 0.0)
+            align (-0.5, 0.0)
         player "and Juniper, the quiet reader!"
         juniper "...hi..."
         juniper "...i opened a bookstore last year..."
@@ -126,7 +127,7 @@ label start:
         hide juniper 
         pause 0.5 
         show peach:
-            align (1.0, 0.0)
+            align (-0.5, 0.0)
         player "and who can forget meeting [favArtist]'s backup singer, Peach!"
         peach "*holds sign saying i'm on vocal rest*"
         hide peach
