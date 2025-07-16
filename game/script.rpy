@@ -60,6 +60,7 @@ label start:
         pause 0.5
         show hilda 
         hilda "hello! i have a special announcement to make!"
+        hilda "the record store is holding a scavenger hunt with a very special prize..."
         hide hilda 
         show normal_fox 
         player "i bet it's a lifetime supply of berries!"
@@ -67,7 +68,7 @@ label start:
         hide normal_fox
         show hilda 
         hilda "we are giving away tickets to [favArtist]'s concert right here in Forest Town... tonight!"
-        hilda "what you, our contestants, must do is do the scavenger hunt!"
+        hilda "go around town and look for the clues!"
         hilda "good luck!"
         hide hilda 
         pause 0.5
