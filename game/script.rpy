@@ -14,7 +14,7 @@ image honey = "bee.png"
 image juniper = "riverotter.png"
 image peach = "dog.png"
 
-start label 
+label start: 
     scene woods 
     "this story takes place in a little forest"
     "this isn't an ordinary forest though"
@@ -30,20 +30,23 @@ start label
     player "nice to meet you! my name's [foxName]"
     player "i guess we should get to know each other while we wait for the town to wake up"
     player "let's start with you! what do you want to know about me?"
-    menu: 
-        "what's your favorite food?":
-        jump food 
-        "what does the fox say?":
-        jump song 
-    label food 
-        player "i really like eating berries!"
-        jump continue 
 
-    label song 
+    menu: 
+    "what's your favorite food?":
+        jump food 
+    "what does the fox say?":
+        jump song 
+
+    label food:
+        player "i really like eating berries!"
+        jump proceed
+
+    label song: 
         player "i am fluent in some human and fox languages!"
         player "but i know that's not the answear you wanted haha :)"
-        jump continue 
-    label continue
+        jump proceed
+
+    label proceed:
         player "anyways, that's enough about me, let's hear about you!"
         player "who's your favorite artist?"
         python:
@@ -68,15 +71,15 @@ start label
         hilda "good luck!"
         hide hilda 
         pause 0.5
-        show jax
+        show jax:
             x align (1.0, 0.0)
         jax "HA. luck. I don't need luck. I'm the best and NOTHING will get in my way"
-        show normal_fox 
+        show normal_fox:
             x align (0.0, 0.0)
         player "i didn't know you were a [favArtist] fan!"
         jax "I'm not even a fan. I'm the BEST ticket scalper EVER. I'm going to win those tickets and sell them for thousands of dollars."
         hide normal_fox
-        show scared_fox
+        show scared_fox:
             x align (0.0, 0.0)
         player "but... that's not fair to all the other fans"
         jax "Well life's not fair kid. And you don't stand a chance"
@@ -106,14 +109,14 @@ start label
         player "and win we did"
         player "not only did we get the [favArtist] tickets..."
         show normal_fox
-        show honey
+        show honey:
             x align (1.0, 0.0)
         player "... we made lots of friends!"
         player "we met Honey, the coffee shop owner"
         honey "buzz buzz buzz buzz (i love making matcha lattes!)"
         hide honey 
         pause 0.5
-        show juniper 
+        show juniper:
             x align (1.0, 0.0)
         player "and Juniper, the quiet reader!"
         juniper "...hi..."
@@ -121,12 +124,12 @@ start label
         player "yeah you did!!"
         hide juniper 
         pause 0.5 
-        show peach
+        show peach:
             x align (1.0, 0.0)
         player "and who can forget meeting [favArtist]'s backup singer, Peach!"
         peach "*holds sign saying i'm on vocal rest*"
         hide peach
-        show normal_fox
+        show normal_fox:
             x align (0.5, 0.0)
         player "i had such a good time with you! i hope i see you again soon!"
 
