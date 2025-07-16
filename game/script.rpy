@@ -73,7 +73,7 @@ label start:
         hide hilda 
         pause 0.5
         show jax:
-            align (1, 0.0)
+            align (1.75, 0.0)
         jax "HA. luck. I don't need luck. I'm the best and NOTHING will get in my way"
         show normal_fox:
             align (-0.5, 0.0)
@@ -110,7 +110,7 @@ label start:
         player "and win we did"
         player "not only did we get the [favArtist] tickets..."
         show normal_fox:
-            align (1, 0)
+            align (1.75, 0)
         show honey:
             align (-0.5, 0.0)
         player "... we made lots of friends!"
