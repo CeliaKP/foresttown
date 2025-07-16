@@ -6,7 +6,7 @@ define jax = Character("Jax", color="#ab4b4e")
 define player = Character("[foxName]", color="#11d0d4")
 
 image woods = "treesbackground.png"
-image normal_fox = "normal_fox .png"
+image normal_fox = "normal_fox1.png"
 image hilda = "deer.png"
 image jax = "evilbunny.png"
 image scared_fox = "scared_fox.png"
