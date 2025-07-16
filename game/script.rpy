@@ -73,10 +73,10 @@ label start:
         hide hilda 
         pause 0.5
         show jax:
-            align (1.0, 0.0)
+            align (1.5, 0.0)
         jax "HA. luck. I don't need luck. I'm the best and NOTHING will get in my way"
         show normal_fox:
-            align (0.0, 0.0)
+            align (-0.5, 0.0)
         player "i didn't know you were a [favArtist] fan!"
         jax "I'm not even a fan. I'm the BEST ticket scalper EVER. I'm going to win those tickets and sell them for thousands of dollars."
         hide normal_fox
